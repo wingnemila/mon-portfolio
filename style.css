@@ -770,3 +770,60 @@ header .navbar {
     height: 250px;
   }
 }
+/* Corrections responsive pour mobile */
+
+/* Correction section hero */
+@media screen and (max-width: 900px) {
+  .hero-section .section-content {
+    gap: 30px !important;
+    padding: 80px 20px 20px !important;
+  }
+
+  .hero-section .hero-details .title {
+    font-size: 2rem !important;
+  }
+
+  .hero-section .hero-details .subtitle {
+    font-size: 1.8rem !important;
+  }
+
+  .hero-section .hero-image-wrapper {
+    max-width: 250px !important;
+  }
+
+  .hero-section .hero-image-wrapper .hero-image {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  /* Correction footer */
+  .footer-section .section-content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-section .copyright-texte {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hero-section .hero-details .title {
+    font-size: 1.8rem !important;
+  }
+
+  .hero-section .hero-details .subtitle {
+    font-size: 1.5rem !important;
+  }
+
+  .hero-section .hero-image-wrapper {
+    max-width: 220px !important;
+  }
+
+  .hero-section .hero-image-wrapper .hero-image {
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
